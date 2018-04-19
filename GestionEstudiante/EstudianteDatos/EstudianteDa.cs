@@ -52,12 +52,12 @@ namespace EstudianteDatos
             conexion.Close();
         }
 
-        public void gg()
+        public void Consultar()
         {
             Conexion();
             conexion.Open();
-            List <string> lista = new List<string>();
-            cmd = new NpgsqlCommand("Select nombre from estudiante", conexion);
+            List<string> lista = new List<string>();
+            cmd = new NpgsqlCommand("SELECT nombre FROM estudiante", conexion);
             cmd.ExecuteNonQuery();
             NpgsqlDataReader dr;
             dr = cmd.ExecuteReader();

@@ -93,12 +93,12 @@ namespace GestionEstudiante
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            List<EstudianteDa> lista = EstudianteDa.estudiante.gg();
+            List<EstudianteDa> lista = estudiante.Consultar();
 
             foreach(EstudianteDa elemento in lista)
             {
 
-                comboBox1.Items.Add(elemento nombre);
+                comboBox1.Items.Add(elemento.Nombre);
 
 
             }
