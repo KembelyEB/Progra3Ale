@@ -15,13 +15,13 @@ namespace ExamenWEBSERVER
         [System.ComponentModel.DesignerCategoryAttribute("code")]
         [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://tempuri.org/")]
         [System.Xml.Serialization.XmlRootAttribute(Namespace = "http://tempuri.org/", IsNullable = false)]
-        public partial class @string
+        public partial class @String
         {
 
-            private stringEFEMERIDES eFEMERIDESField;
+            private StringEFEMERIDES eFEMERIDESField;
 
             /// <comentarios/>
-            public stringEFEMERIDES EFEMERIDES
+            public StringEFEMERIDES EFEMERIDES
             {
                 get
                 {
@@ -38,17 +38,17 @@ namespace ExamenWEBSERVER
         [System.SerializableAttribute()]
         [System.ComponentModel.DesignerCategoryAttribute("code")]
         [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://tempuri.org/")]
-        public partial class stringEFEMERIDES
+        public partial class StringEFEMERIDES
         {
 
-            private stringEFEMERIDESEFEMERIDE_SOL eFEMERIDE_SOLField;
+            private StringEFEMERIDESEFEMERIDE_SOL eFEMERIDE_SOLField;
 
-            private stringEFEMERIDESEFEMERIDE_LUNA eFEMERIDE_LUNAField;
+            private StringEFEMERIDESEFEMERIDE_LUNA eFEMERIDE_LUNAField;
 
-            private stringEFEMERIDESFASELUNAR fASELUNARField;
+            private StringEFEMERIDESFASELUNAR fASELUNARField;
 
             /// <comentarios/>
-            public stringEFEMERIDESEFEMERIDE_SOL EFEMERIDE_SOL
+            public StringEFEMERIDESEFEMERIDE_SOL EFEMERIDE_SOL
             {
                 get
                 {
@@ -61,7 +61,7 @@ namespace ExamenWEBSERVER
             }
 
             /// <comentarios/>
-            public stringEFEMERIDESEFEMERIDE_LUNA EFEMERIDE_LUNA
+            public StringEFEMERIDESEFEMERIDE_LUNA EFEMERIDE_LUNA
             {
                 get
                 {
@@ -74,7 +74,7 @@ namespace ExamenWEBSERVER
             }
 
             /// <comentarios/>
-            public stringEFEMERIDESFASELUNAR FASELUNAR
+            public StringEFEMERIDESFASELUNAR FASELUNAR
             {
                 get
                 {
@@ -91,7 +91,7 @@ namespace ExamenWEBSERVER
         [System.SerializableAttribute()]
         [System.ComponentModel.DesignerCategoryAttribute("code")]
         [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://tempuri.org/")]
-        public partial class stringEFEMERIDESEFEMERIDE_SOL
+        public partial class StringEFEMERIDESEFEMERIDE_SOL
         {
 
             private string sALEField;
@@ -129,7 +129,7 @@ namespace ExamenWEBSERVER
         [System.SerializableAttribute()]
         [System.ComponentModel.DesignerCategoryAttribute("code")]
         [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://tempuri.org/")]
-        public partial class stringEFEMERIDESEFEMERIDE_LUNA
+        public partial class StringEFEMERIDESEFEMERIDE_LUNA
         {
 
             private string sALEField;
@@ -167,7 +167,7 @@ namespace ExamenWEBSERVER
         [System.SerializableAttribute()]
         [System.ComponentModel.DesignerCategoryAttribute("code")]
         [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://tempuri.org/")]
-        public partial class stringEFEMERIDESFASELUNAR
+        public partial class StringEFEMERIDESFASELUNAR
         {
 
             private byte idField;

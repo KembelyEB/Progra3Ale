@@ -25,10 +25,10 @@ namespace ExamenWEBSERVER
        
         }
 
-        public Efemerides.@string Efemerid(WSMeteorologicoClient ws)
+        public Efemerides.@String Efemerid(WSMeteorologicoClient ws)
         {
             string resEfe = ws.efemerides(new efemerides());
-            Efemerides.@string efe = resEfe.ParseXML<Efemerides.@string>();
+            Efemerides.@String efe = resEfe.ParseXML<Efemerides.@String>();
 
             return efe;
         }
@@ -46,7 +46,7 @@ namespace ExamenWEBSERVER
         {
             WSMeteorologicoClient ws = new WSMeteorologicoClient("WSMeteorologico");
 
-            Efemerides.@string efe = Efemerid(ws);
+            Efemerides.@String efe = Efemerid(ws);
 
            label1.Text = efe.EFEMERIDES.EFEMERIDE_LUNA.SALE;
            label2.Text  = efe.EFEMERIDES.EFEMERIDE_LUNA.SEPONE;
